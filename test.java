@@ -5,5 +5,6 @@ public class test {
         System.out.println("user 1 menambahakan baris kode kedua");
         System.out.println("user 2 menambahkan baris kode ketiga");
         System.out.println("user 3 menambahkan baris kode keempat");
+        System.out.println("user 4 menambahkan baris kode kelima");
     }
 }
