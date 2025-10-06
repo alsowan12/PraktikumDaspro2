@@ -1,0 +1,23 @@
+1. Mengapa pengecekan pada struktur IF tersebut tidak melibatkan kondisi dengan 
+operator relasional? 
+Jawaban:Karena
+  1. Variabel uktLunas bertipe boolean (true atau false).
+  2. Pada tipe boolean, kita tidak perlu operator relasional seperti ==, >, <, dll.
+  3. Cukup gunakan langsung nilai boolean-nya di dalam if.
+
+2. Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya? 
+Jawaban:Jika user mengetik false, maka variabel uktLunas = false.
+Maka program akan masuk ke blok else
+
+3. Sistem perlu memberikan informasi apabila pengguna memasukkan nilai false, maka 
+terdapat keluaran “Registrasi ditolak. Silakan lunasi UKT terlebih dahulu”. Modifikasi 
+program tersebut dengan menambahkan struktur ELSE! 
+Jawaban:if (uktLunas) { // gunakan nama yang sama persis
+            System.out.println("Pembayaran UKT terverifikasi");
+            System.out.println("Silakan cetak KRS dan minta tanda tangan DPA");
+        } else {
+            System.out.println("Silakan lunasi UKT terlebih dahulu agar bisa mencetak KRS.");
+        }
+4. Commit dan push hasil modifikasi Anda ke Github dengan pesan “Modifikasi 
+Percobaan 1”
+Jawaban: Sudah
